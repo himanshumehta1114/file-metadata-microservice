@@ -1,0 +1,19 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshumehta1114/file-metadata-microservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanshumehta1114/file-metadata-microservice/issues"
+  },
+  "homepage": "https://github.com/himanshumehta1114/file-metadata-microservice#readme"
+}
