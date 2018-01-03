@@ -5,12 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>File metadata microservice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1>Upload file to get file size</h1>
-    <form action="/" enctype="multipart/form-data" method="post">
-        <input type="file" name="photo" value="">
-        <input type="submit" name="upload" value="submit">
-    </form>
+    <div class="container-fluid">
+      <img src="https://avatars2.githubusercontent.com/u/25463496?s=460&v=4" alt="Himanshu Mehta" width='150px' height='150px'>
+      <p style="font-size: 25px">
+        <a href="mailto:himanshumehta1114@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+        <a href="https://github.com/himanshumehta1114" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://linkedin.com/in/himanshumehta1114" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://codepen.io/himanshumehta1114" target="_blank"><i class="fa fa-codepen"></i></a>
+        <a href="https://freecodecamp.org/himanshumehta1114" target="_blank"><i class="fa fa-fire"></i></a>
+      </p>
+      <h1>FreeCodeCamp API Basejump: File metadata Microservice</h1>
+    <blockquote>
+      User stories:
+       <ul>1) I can submit a FormData object that includes a file upload.</ul>
+       <ul>2) When I submit something, I will receive the file size in bytes within the JSON response.</ul>
+    </blockquote>
+    <div class="row">
+        <div class="col-lg-12">
+                <h1>Upload file to get file size</h1>
+                <form action="/size" enctype="multipart/form-data" method="post">
+                    <input type="file" name="photo" value="">
+                    <input type="submit" name="upload" value="submit">
+                </form>
+        </div>
+    </div>
+  </div>
 </body>
 </html>
